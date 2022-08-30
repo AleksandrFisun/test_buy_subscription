@@ -321,6 +321,12 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media (max-width: 767px) {
+  .logo {
+    width: 188px;
+    height: 253px;
+  }
+}
 
 .nav-img__svg-check-gren {
   position: absolute;
@@ -482,6 +488,11 @@ td:last-child {
   width: 200px;
   position: relative;
   text-decoration: underline;
+}
+@media (max-width: 767px) {
+  .item__text-name {
+    width: 100px;
+  }
 }
 
 .table__container-line {
