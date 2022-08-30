@@ -2,7 +2,7 @@ body {
   background-color: #151515;
   font-family: $font-roboto;
 }
-
+//
 .page-header {
   display: flex;
   flex-wrap: wrap;
@@ -68,7 +68,7 @@ body {
   justify-content: space-between;
   padding: 54px 30px;
   border-bottom: 1px solid;
-  border-color: #242424;
+  border-color: $colors-border-color-menu;
 
   @media screen and (min-width: 768px) {
     padding: 34px 10px;
@@ -95,7 +95,7 @@ body {
   list-style: none;
   padding: 55px 30px;
   border-bottom: 1px solid;
-  border-color: #242424;
+  border-color: $colors-border-color-menu;
 }
 
 .nav__iten-menu {
@@ -201,7 +201,7 @@ body {
   padding: 10px;
   border-top: 1px solid;
   border-bottom: 1px solid;
-  border-color: #242424;
+  border-color: $colors-border-color-menu;
   color: $colors-background-text-default;
   @media screen and (max-width: 450px) {
     flex-wrap: wrap;
@@ -277,14 +277,8 @@ body {
   position: absolute;
   top: 2px;
   left: 124px;
-  width: 16px;
-  height: 16px;
-  @media screen and (min-width: 768px) {
-    top: 2px;
-    left: 124px;
-    width: 16px;
-    height: 16px;
-  }
+  width: 14px;
+  height: 14px;
   @media screen and (min-width: 1100px) {
     top: 4px;
     left: 144px;
