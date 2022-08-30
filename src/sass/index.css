@@ -543,6 +543,10 @@ td:last-child {
   width: 60px;
 }
 
+.modal__rights:checked + .modal__checkbox::after {
+  opacity: 1;
+}
+
 /*Визуальное скрытие, но для читалок остается. */
 .headline-hidden {
   position: absolute;

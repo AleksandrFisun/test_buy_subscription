@@ -211,3 +211,6 @@ margin-top: 50px;
   position: relative;
   width: 60px;
 }
+.modal__rights:checked+.modal__checkbox::after {
+  opacity: 1;
+}
