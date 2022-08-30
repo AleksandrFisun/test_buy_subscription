@@ -1,0 +1,58 @@
+body{
+  background-color: #151515;
+}
+.page-header{
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav{
+background-color: #1D1C1C;
+}
+.nav__img{
+  border: 1px solid;
+  border-color: #DB9351;
+}
+.logo{
+  width: 220px;
+  height: 293px;
+object-fit: cover;
+}
+.list__nav-message{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+padding: 54px 30px;
+border-bottom: 1px solid;
+border-color: #242424;
+}
+.link__nav-message{
+  color: #DB9351;
+  margin-right: 59px;
+}
+.nav__message-number{
+  color: #DB9351;
+}
+
+.nav__list-menu{
+list-style: none;
+padding: 55px 30px;
+border-bottom: 1px solid;
+border-color: #242424;
+}
+.nav__iten-menu{
+  display: flex;
+justify-content: left;
+  margin-bottom: 27px;
+}
+.nav__iten-menu:last-child{
+  margin-bottom: 0;
+}
+.nav__link-menu{
+  color: #FFFFFF;
+}
+.nav__button{
+  padding: 55px 50px;
+  background-color: #DB9351;
+  border: none;
+  color: #FFFFFF;
+}
